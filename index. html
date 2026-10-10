@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#090a09" name="theme-color"/><title>Con San José — Mi camino vocacional</title>
+<style>
+:root{esquema de color: oscuro;--bg:#090a09;--panel:#1d1e1d;--panel2:#141514;--oro:#f4aa08;--oro2:#ffd36a;--tinta:#f8f7f2;--silenciado:#b6b5b1;--línea:#343530;--verde:#b5d7a7;--suave:#282923}*{tamaño de caja:border-box}html{comportamiento de desplazamiento:suave}body{margen:0;fondo:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}.wrap{max-width:760px;margin:auto;padding:16px 15px 38px}.hero{background:linear-gradient(145deg,#29291f,#1d201b 62%,#30301f);border:1px sólido #48432c;color:var(--tinta);radio-del-borde:28px;relleno:25px 22px;posición:relativa;desbordamiento:oculto;sombra-de-caja:0 10px 30px #0005}.héroe:después{contenido:'✧';posición:absoluta;derecha:17px;arriba:-18px;tamaño-de-fuente:125px;color:#f4aa081c;eventos-de-puntero:ninguno}.ceja{tamaño-de-fuente:.72rem;transformación-de-texto:mayúscula;espaciado-de-letras:.15em;color:var(--gold2);peso-fuente:800}.hero h1{peso-fuente:800;tamaño-fuente:2.25rem;altura-línea:1.08;margen:9px 0 11px;espaciado-letra:-.04em}.hero p{margen:0;color:#e5e3dc;ancho-máximo:490px}.pill{display:inline-block;border:1px solid #6c5b2f;background:#28261c;color:#f4d991;border-radius:99px;padding:6px 11px;font-size:.78rem;margin-top:16px}.date{font-size:.86rem;color:var(--muted);margin:18px 3px 10px;font-weight:650}.card{background:var(--panel);border:1px solid #292a26;border-radius:25px;padding:20px;margen superior: 14px;sombra de caja: 0 8px 24px #0002}.label{tamaño de fuente: .75rem; espaciado entre letras: .09em;transformación de texto: mayúsculas;peso de fuente: 800;color:var(--gold2)}.quote{tamaño de fuente: 1.4rem;altura de línea: 1.4;margen: 12px 0;color:#fff9e9}.note{tamaño-fuente:.82rem;color:var(--muted)}.purpose{tamaño-fuente:1.05rem;margen:10px 0 14px}.prayer{fondo:#292820;borde:1px sólido #3c392a;radio-borde:17px;relleno:15px;color:#f6eedb}.btnrow{pantalla:flex;gap:9px;flex-wrap:wrap;margen-superior:15px}.btn{borde:0;radio-borde:14px;relleno:12px 15px;peso de fuente:750;tamaño de fuente:.9rem;cursor:puntero;fondo:var(--oro);color:#201b0e;altura mínima:45px}.btn.secondary{fondo:#2b2c29;borde:1px sólido #41413a;color:var(--tinta)}.btn.gold{fondo:var(--oro);color:#201b0e}.btn:active{transform:scale(.98)}.btn:focus,textarea:focus,select:focus{outline:3px solid #f4aa0877;outline-offset:2px}.checkline{display:flex;gap:10px;align-items:center;font-weight:650;margin-top:13px}.checkline input{ancho:20px;alto:20px;accent-color:var(--gold)}textarea,select{ancho:100%;borde:1px sólido #41413a;radio del borde:14px;relleno:13px;fuente:heredar;fondo:#121311;color:var(--tinta);cambiar tamaño:vertical}textarea{altura mínima:125px}.small{tamaño de fuente:.85rem;color:var(--silenciado)}.progress{altura:8px;fondo:#34352e;radio-borde:99px;desbordamiento:oculto;margen:9px 0}.progress span{pantalla:bloque;altura:100%;ancho:0;fondo:gradiente-lineal(90deg,var(--oro),var(--oro2));transición:ancho .2s}.footer{alineación-de-texto:centro;color:var(--silenciado);tamaño-de-fuente:.82rem;relleno:25px 8px 0}.hidden{display:none}.sectiontitle{tamaño de fuente:1.3rem;altura de línea:1.25;margen:0 0 10px;espaciado entre letras:-.02em}.days{display:flex;gap:8px;align-items:center;justify-content:space-between}.days .btn{flex:1}.historyitem{border-bottom:1px solid var(--line);padding:10px 0}.historyitem:last-child{border-bottom:0}#bibleVerse{font-size:1.38rem;color:#fff1c6;margin:10px 0}#bibleRef{font-weight:800;color:var(--gold2)}a{color:var(--gold2)}section.card h2.sectiontitle{display:flex;gap:8px;align-items:center}button,input,textarea,select{font-family:inherit}@media(min-width:600px){.wrap{padding-top:25px}.hero{padding:32px}.hero h1{font-size:2.65rem}.card{padding:25px}.quote{font-size:1.55rem}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transición:¡ninguna!importante}}
+
+/* Diseño de inicio inspirado en la referencia del usuario */
+:root{--bg:#050605;--panel:#1d1e1d;--panel2:#121312;--oro:#f4aa08;--oro2:#ffd36a;--tinta:#faf9f5;--silenciado:#aaa9a6}
+body{background:#050605}
+.wrap{max-width:700px;relleno:16px 18px 110px}
+.hero{padding:20px 22px 22px;borde:0;radio del borde:28px;fondo:transparente;sombra de caja:ninguna;desbordamiento:visible}
+.hero:after{contenido:ninguno}
+.topline{display:flex;align-items:center;gap:10px}
+.brandmark{width:38px;altura:38px;radio del borde:50%;pantalla:cuadrícula;elementos-del-lugar:centro;fondo:var(--oro);color:#201a0b;tamaño-de-fuente:22px;peso-de-fuente:900}
+.eyebrow{font-size:.72rem;espaciado entre letras:.13em;color:var(--silenciado)}
+.live-dot,.lit-dot{width:9px;altura:9px;radio del borde:50%;fondo:#31a85a;pantalla:bloque en línea;margen izquierdo:auto}
+.hero h1{font-size:2,45rem;altura de línea: 1,03; espaciado entre letras: -0,045em; margen: 18px 0 8px}
+.hero h1 span{color:var(--oro)}
+.hero p{color:#bdbbb4;tamaño de fuente:1rem}
+.date{margin:10px 3px 15px;tamaño de fuente: .9rem}
+.liturgical{display:flex;align-items:center;gap:12px;padding:15px 17px;margin:0 0 16px;background:#151614;border:1px solid #2b2c27;border-radius:18px}
+.liturgical strong,.liturgical small{display:block}.liturgical fuerte{tamaño de fuente:.96rem}.liturgical pequeño{tamaño de fuente:.78rem;color:var(--silenciado);margen superior:2px}.cross{color:var(--oro);tamaño de fuente:1.35rem;margen izquierdo:auto}
+.quickgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 18px}
+.quickcard{min-height:180px;display:flex;flex-direction:column;align-items:flex-start;text-decoration:none;color:var(--ink);background:var(--panel);border:1px solid #262724;border-radius:29px;padding:23px 21px;transition:transform .15s}
+.quickcard:active{transform:scale(.98)}
+.quickicon{width:58px;altura:58px;pantalla:cuadrícula;elementos-de-lugar:centro;radio-del-borde:50%;fondo:var(--oro);color:#fff8e7;tamaño-de-fuente:29px;peso-de-fuente:800;margen-inferior:15px}
+.quickcard strong{font-size:1,45rem;altura de línea: 1,13; espaciado entre letras: -0,025em}
+.quickcard small{font-size:.82rem;color:var(--silenciado);margen superior:10px}
+.card{border:0;radio del borde:29px;fondo:var(--panel);relleno:22px;margen superior:16px;sombra de caja:none}
+.hours-card{padding:23px;margen:0 0 19px}
+.hours-heading{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.hours-heading .quickicon{flex-shrink:0;margen:0;ancho:58px;alto:58px}
+.hours-heading h2{font-size:1.35rem;altura de línea:1.15;margen:0;peso de fuente:800}
+.hours-heading small{display:block;color:var(--silenciado);tamaño de fuente:.84rem;margen superior:5px}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hourbtn,.hours-small a{display:flex;align-items:center;justify-content:center;text-decoration:none;color:#f5f4f0;background:#121312;border:1px sólido transparente;border-radius:17px;min-height:57px;padding:10px;font-size:1rem}
+.hourbtn.active{background:#39352a;color de borde:#98772e;sombra de caja:recuadro 0 0 0 1px #6f5827;peso de fuente:750}
+.hours-small{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}
+.hours-small a{min-height:49px}
+.lowergrid .quickcard{min-height:155px;relleno:20px}
+.lowergrid .quickicon{width:52px;altura:52px;tamaño de fuente:25px;margen inferior:12px}
+.lowergrid .quickcard strong{font-size:1.13rem}
+section.card[id]{scroll-margin-top:18px}
+.btn{border-radius:15px}
+textarea,select{border-radius:16px}
+.bottomnav{position:fijo;índice z:10;abajo:12px;izquierda:50%;transformar:translateX(-50%);ancho:min(440px,calc(100% - 38px));pantalla:cuadrícula;columnas-plantilla-cuadrícula:1fr;espacio:5px;relleno:9px;fondo:#20211fee;borde:1px sólido #33342f;radio-borde:26px;filtro-fondo:desenfoque(16px);sombra-caja:0 12px 35px #0008}
+.bottomnav a{display:flex;dirección-flex:columna;elementos-de-alineación:centro;espacio:2px;decoración-de-texto:ninguno;color:#b8b8b4;tamaño-de-fuente:.77rem;relleno:5px 2px;radio-del-borde:15px}
+.bottomnav a span{font-size:1.3rem;color:var(--oro)}
+@media(max-width:380px){.wrap{relleno-izquierda:13px;relleno-derecha:13px}.quickcard{relleno:19px 16px;altura mínima:166px}.quickcard strong{tamaño-fuente:1.25rem}.hero h1{tamaño-fuente:2.15rem}.hours-heading h2{tamaño-fuente:1.17rem}}
+
+.marello-home .home-intro{margin:14px 2px 18px;color:var(--muted);line-height:1.55;font-size:.96rem}
+.marello-home .hours-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.marello-home .hourbtn{min-height:58px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 10px}
+
+.dailychallenge{margin-top:20px;padding:18px;border:1px solid #5b481e;border-radius:20px;background:linear-gradient(145deg,#24231e,#191a19)}
+.challengeTag{display:inline-block;margin:4px 0 8px;padding:6px 10px;border-radius:999px;background:#3a3019;color:#f5bb37;font-size:.75rem;font-weight:800;letter-spacing:.08em}
+
+/* Navegación por pantallas, conservando el diseño original */
+.app-page-hidden{display:none!important}
+.page-back{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;background:#292c28;color:var(--ink);border:1px solid #41413a;border-radius:14px;padding:11px 15px;font:inherit;font-weight:750;cursor:pointer}
+.page-back:active{transform:scale(.98)}
+
+
+/* Pulido visual: luz suave, mejor jerarquía y detalles más cuidados */
+:root{--gold:#f5b72f;--gold2:#ffdf8a;--muted:#b7b6af;--line:#34352f}
+html{scroll-padding-top:18px}
+body{background:radial-gradient(ellipse at 50% -12%,#282315 0, #11120f 35%, #050605 72%);background-attachment:fixed}
+.wrap{padding-top:12px}
+.hero{position:relative;padding:22px 20px 24px}
+.brandmark{box-shadow:0 0 0 6px #f4aa0812,0 7px 22px #f4aa0820}
+.live-dot{box-shadow:0 0 0 5px #31a85a18}
+.hero h1{line-height:1.06;text-shadow:0 3px 24px #0007}
+.hero h1 span{background:linear-gradient(100deg,#f4aa08,#ffe6a0 58%,#f4aa08);background-clip:text;-webkit-background-clip:text;color:transparent}
+.liturgical{background:linear-gradient(120deg,#191a16,#11120f);border-color:#38352a;box-shadow:inset 0 1px #ffffff06,0 8px 24px #0002}
+.quickgrid{gap:12px}
+.quickcard{position:relative;isolation:isolate;overflow:hidden;min-height:174px;background:linear-gradient(145deg,#22231f,#171815 75%);border:1px solid #36372f;box-shadow:0 9px 24px #0002,inset 0 1px #ffffff08;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.quickcard:before{content:"";position:absolute;z-index:-1;width:115px;height:115px;right:-48px;top:-48px;border-radius:50%;background:#f4aa080b}
+.quickcard:active{transform:scale(.975)}
+.quickcard:hover{border-color:#75602e;box-shadow:0 12px 28px #0004,inset 0 1px #ffffff0c}
+.quickicon{box-shadow:0 5px 16px #f4aa0818;background:linear-gradient(145deg,#ffd36a,#e99b00);color:#28200d}
+.quickcard strong{letter-spacing:-.035em}
+.quickcard small{line-height:1.4}
+.card{position:relative;background:linear-gradient(145deg,#20211e,#171815 82%);border:1px solid #2d2e28;padding:22px;box-shadow:0 10px 28px #0002,inset 0 1px #ffffff05}
+.card h2.sectiontitle{font-size:1.32rem;letter-spacing:-.035em}
+.label{color:#f4c85f;letter-spacing:.105em}
+.quote{font-weight:620;letter-spacing:-.02em}
+.prayer{background:linear-gradient(135deg,#2b2a21,#201f19);border-color:#4a4129;line-height:1.72;box-shadow:inset 3px 0 #d99b1b}
+.dailychallenge{background:linear-gradient(145deg,#29271f,#191a17);border-color:#514326;box-shadow:inset 0 1px #ffffff08}
+.challengeTag{border:1px solid #665025;background:#342b19;color:#ffda79}
+.btn{box-shadow:0 4px 12px #0002;transition:transform .15s ease,filter .15s ease,background .15s ease}
+.btn:hover{filter:brightness(1.08)}
+.btn.gold,.btn:not(.secondary){background:linear-gradient(135deg,#ffd36a,#f0a500);color:#211a0b}
+.btn.secondary{background:#292b26;border-color:#45463d}
+textarea,select{background:#10110f;border-color:#414238;color:var(--ink);box-shadow:inset 0 1px 4px #0002}
+textarea::placeholder{color:#77786f}
+.checkline{padding:11px 12px;border-radius:14px;background:#ffffff04;border:1px solid #ffffff0a;line-height:1.4}
+.progress{background:#303128;border:1px solid #414135}
+.historyitem{border-color:#38392f}
+.hourbtn,.hours-small a{background:linear-gradient(145deg,#171815,#10110f);border-color:#303129;transition:border-color .15s ease,background .15s ease}
+.hourbtn:hover,.hours-small a:hover{border-color:#75602e;background:#25251f}
+.hourbtn.active{background:#353126;border-color:#9b792f}
+.bottomnav{background:#191a17eF;border-color:#3b3c33;box-shadow:0 12px 38px #0009,inset 0 1px #ffffff08}
+.bottomnav a{transition:background .15s ease,color .15s ease}
+.bottomnav a:active{background:#343126}
+.page-back{background:#252720;border-color:#46473d}
+.footer{opacity:.9;line-height:1.7}
+@media(min-width:600px){.wrap{padding-top:22px}.hero{padding:26px 24px 28px}.card{padding:26px}.quickcard{min-height:185px}}
+@media(max-width:380px){.quickgrid{gap:10px}.quickcard{border-radius:24px}.card{padding:18px}.quickicon{width:52px;height:52px;font-size:26px}}
+@media(prefers-reduced-motion:reduce){.quickcard,.btn,.hourbtn,.hours-small a,.bottomnav a{transition:none}}
+
+
+/* Mejoras de la pantalla principal y accesos de oración */
+.hero h1{letter-spacing:-.04em}
+.liturgical{border-left:3px solid #dca52d}
+.quickcard{min-height:166px}
+.quickcard strong{font-size:1.27rem}
+.marello-home{border-color:#4a4029;background:linear-gradient(145deg,#24231e,#171815)}
+.marello-home .hours-heading h2{color:#ffdf8a}
+.diary-archive{margin-top:18px;border-top:1px solid #5b4925;padding-top:16px}
+@media(max-width:380px){.quickcard{min-height:154px}.quickcard strong{font-size:1.15rem}}
+/* Visibilidad y contraste de controles */
+#difficulty{background-color:#171813!important;color:#fff4d6!important;border-color:#9b7a32!important;opacity:1!important;-webkit-text-fill-color:#fff4d6!important}
+#difficulty option{background:#171813;color:#fff4d6}
+#difficultyPrayer{color:#f6eedb}
+#prev,#next{visibility:visible!important;opacity:1!important}
+
+.liturgical{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;cursor:pointer}
+.liturgical strong,.liturgical small{display:block}
+</style>
+</head>
+<body><main class="wrap">
+<header class="hero">
+<div class="topline"><span class="brandmark">✝</span><span class="eyebrow">MI CAMINO VOCACIONAL</span><span class="live-dot"></span></div>
+<h1>Camina con<br/><span>San José</span></h1>
+<p>Ora · Escucha · Sirve</p>
+</header>
+<div class="date" id="dateText"></div>
+<a class="liturgical" href="#reflexion" aria-label="Abrir Un momento con Dios, ver la frase y reflexión del día y cambiar de día"><span class="lit-dot"></span><div><strong>Un momento con Dios</strong><small>Lee la frase y reflexión del día; puedes cambiar de día cuando quieras.</small></div><span class="cross">✦</span></a>
+<nav aria-label="Accesos principales" class="quickgrid">
+<a class="quickcard" href="#biblia"><span class="quickicon">▤</span><strong>Meditación</strong><small>Evangelio · Biblia Latinoamericana</small></a>
+<a class="quickcard" href="#noche"><span class="quickicon">☼</span><strong>Oración<br/>de la noche</strong><small>Termina el día con Jesús</small></a>
+
+</nav>
+<section class="card marello-home" id="marello-home">
+<div class="hours-heading"><span class="quickicon bookicon">🌿</span><div><h2>Escuela de San José Marello</h2><small>Aprende a vivir cerca de Jesús</small></div></div>
+<p class="home-intro">Una pequeña guía para formar el corazón: oración sencilla, humildad, servicio y fidelidad en lo cotidiano.</p>
+<div class="hours-grid">
+<a class="hourbtn active" href="#marello">🌱 Enseñanza del día</a>
+<a class="hourbtn" href="#proposito">✓ Propósito diario</a><a class="hourbtn" href="#guia">✝ Mi vocación</a>
+</div>
+</section>
+<nav aria-label="Más secciones" class="quickgrid lowergrid">
+<a class="quickcard" href="#santidad"><span class="quickicon">✧</span><strong>Santidad diaria</strong><small>Pequeños pasos</small></a>
+<a class="quickcard" href="#dificil"><span class="quickicon">♡</span><strong>Oración para mi momento</strong><small>Según cómo te sientes</small></a>
+
+</nav>
+<section class="card" id="reflexion"><div class="label">Un momento con Dios · Frase y reflexión del día <span id="dayNum"></span></div><div class="quote" id="quote"></div><p class="note">Reflexión original inspirada en la espiritualidad de San José Marello y el ejemplo de San José. No es una cita textual del santo.</p><div class="days" aria-label="Cambiar el día" style="margin-top:16px;flex-wrap:wrap"><button class="btn secondary" id="prev" type="button" style="border-color:#9b7a32;color:#ffdf8a;min-height:50px">← Día anterior</button><button class="btn secondary" id="next" type="button" style="border-color:#9b7a32;color:#ffdf8a;min-height:50px">Día siguiente →</button></div></section>
+<section class="card" id="diario">
+<h2 class="sectiontitle">📔 Mi diario</h2>
+<p class="small">Escribe con libertad lo que viviste hoy, lo que agradeces, tus preguntas y lo que quieres confiarle a Dios. Tus notas se guardan en este dispositivo.</p>
+<label class="label" for="diaryEntry">Lo que quiero escribir hoy</label>
+<textarea id="diaryEntry" rows="7" placeholder="Querido Jesús, hoy quiero contarte..."></textarea>
+<div class="btnrow"><button class="btn gold" id="saveDiary" type="button">Guardar mi página</button><button class="btn secondary" id="clearDiary" type="button">Borrar texto</button></div>
+<p class="small" id="diaryStatus" aria-live="polite">Cada día puedes escribir una página nueva. Tus notas se guardan en este dispositivo.</p>
+<div class="diary-archive" style="margin-top:18px;border-top:1px solid #5b4925;padding-top:16px">
+<h3 style="color:#ffdf8a;margin:0 0 8px">📚 Mis páginas guardadas</h3>
+<p class="small">Elige una fecha para volver a leer lo que escribiste.</p>
+<div id="diaryEntries" class="diary-entries" aria-live="polite"></div>
+</div>
+</section>
+<section class="card" id="proposito"><div class="label">🌱 Mi propósito de hoy</div><p class="purpose" id="purpose"></p><label class="checkline"><input id="done" type="checkbox"/> Hoy intentaré vivir este propósito</label><p class="small" id="streakText">Cada pequeño paso cuenta.</p><div class="progress"><span id="progressBar"></span></div>
+<div class="dailychallenge"><div class="label">Reto vocacional del día</div><div class="challengeTag" id="challengeTag">SERVICIO</div><p class="purpose" id="challengeText">Haz un pequeño servicio con amor, aunque nadie lo note.</p><p class="small">Inspirado en la espiritualidad de San José Marello: seguir a Jesús con humildad y fidelidad en lo cotidiano.</p><label class="checkline"><input id="challengeDone" type="checkbox"/> He intentado vivir este reto</label><p aria-live="polite" class="small" id="challengeMsg">No se trata de hacerlo perfecto; basta dar un paso sincero.</p></div></section>
+<section class="card" id="oracion"><div class="label">Oración breve del día</div><p class="prayer" id="prayer"></p><div class="btnrow"><button class="btn gold" id="prayed">🙏 He dedicado un momento a orar</button></div><p class="small hidden" id="prayedMsg">Que este momento sencillo te ayude a caminar con paz.</p>
+<div class="label" style="margin-top:20px">Otras oraciones para acompañarte</div>
+<div class="dailychallenge"><strong style="color:#ffdf8a">Para comenzar el día</strong><p>Señor Jesús, recibe este día. Ayúdame a escuchar antes de hablar, servir con alegría y cumplir mis tareas con amor. San José, acompáñame en cada paso. Amén.</p></div>
+<div class="dailychallenge"><strong style="color:#ffdf8a">Para dar gracias</strong><p>Padre bueno, gracias por la vida, por las personas que caminan conmigo y por las oportunidades de aprender. Enséñame a reconocer tus regalos también en las cosas sencillas. Amén.</p></div>
+<div class="dailychallenge"><strong style="color:#ffdf8a">Para confiar en Dios</strong><p>Señor, pongo en tus manos mis preocupaciones y lo que todavía no comprendo. Dame serenidad para hacer lo que está a mi alcance y confianza para caminar contigo paso a paso. Amén.</p></div>
+</section>
+<section class="card" id="guia"><h2 class="sectiontitle">Una guía para tu camino</h2><p>La vocación se discierne poco a poco. Ora con sinceridad, cumple tus responsabilidades, sirve a tus hermanos y conversa con tus formadores cuando tengas dudas. No necesitas ser perfecto: puedes volver a empezar.</p><p class="prayer">San José, enséñame a estar cerca de Jesús, a servir con humildad y a ser fiel en las cosas pequeñas. San José Marello, acompáñame en mi camino vocacional. Amén.</p></section>
+<section class="card" id="biblia">
+<h2 class="sectiontitle">📖 Meditación</h2>
+<div class="label">Lecturas de hoy · Sábado 10 de octubre de 2026</div>
+<p><strong>Primera lectura:</strong> Gálatas 3, 22-29</p>
+<p><strong>Salmo:</strong> Salmo 104 (105), 2-3. 4-5. 6-7</p>
+<p><strong>Evangelio:</strong> Lucas 11, 27-28</p>
+<p class="quote">«Dichosos los que escuchan la palabra de Dios y la cumplen».</p>
+<p class="small">Esta sección funciona sin internet y no abre páginas externas. Para leer el texto íntegro de las lecturas en la traducción de la Biblia Latinoamericana, busca estas citas en tu Biblia. No he copiado aquí el texto completo de esa edición porque está protegido por derechos de autor.</p>
+<div class="label" style="margin-top:18px">Meditación para hoy</div>
+<p>Jesús nos recuerda que escuchar la Palabra de Dios es solo el comienzo: también estamos llamados a vivirla. La fe se vuelve concreta en los pequeños gestos de cada día: hablar con respeto, cumplir nuestras responsabilidades, ayudar sin buscar reconocimiento y pedir perdón cuando nos equivocamos.</p>
+<p>Hoy puedes preguntarte: ¿qué palabra de Jesús quiero llevar a la práctica en casa, en mi comunidad o en mi formación? Elige un paso concreto y hazlo con amor.</p>
+<div class="label">Inspiración de San José Marello</div>
+<p>Como reflexión inspirada en la espiritualidad de San José Marello —no como cita literal—, procura vivir unido a Jesús en lo cotidiano, con humildad, servicio, fidelidad y caridad. Que tu oración se convierta en obras sencillas de amor y en una entrega generosa a quienes te rodean.</p>
+<div class="label" style="margin-top:18px">Para meditar y orar</div>
+<p>1. ¿Qué me está diciendo Dios con esta lectura?</p>
+<p>2. ¿Qué acción concreta puedo realizar hoy para poner su Palabra en práctica?</p>
+<p class="prayer">Señor Jesús, abre mi corazón para escucharte con sinceridad. Ayúdame a no quedarme solo en las palabras, sino a vivir tu Evangelio con humildad, servicio y amor. San José, enséñame a ser fiel en las cosas pequeñas. Amén.</p>
+<div class="label">Mi respuesta a la Palabra</div>
+<p class="small">Escribe tu respuesta en «Mi diario»: qué has descubierto, por qué quieres dar gracias y qué paso concreto deseas vivir hoy.</p>
+</section>
+<section class="card" id="noche">
+<h2 class="sectiontitle">🌙 Oración larga de la noche</h2>
+<p class="small">Tómate tu tiempo. Puedes leer despacio y guardar silencio al terminar.</p>
+<div class="prayer" id="nightPrayer">Señor Jesús, al terminar este día me presento ante ti tal como soy. Gracias por el regalo de la vida, por las personas que me acompañaron y por las oportunidades que tuve para amar y servir. Gracias también por las cosas pequeñas que quizá no supe valorar.</div>
+<div class="btnrow"><button class="btn gold" id="nightMore">Mostrar oración completa</button></div>
+<p class="small hidden" id="nightExtra">Mira con bondad lo que hoy hice bien y ayúdame a reconocer con humildad aquello en lo que fallé. Si fui impaciente, enséñame a pedir perdón; si fui egoísta, abre mi corazón a las necesidades de los demás; si me desanimé, recuérdame que puedo volver a empezar. Te confío mi vocación, mis preguntas y mis deseos. No permitas que busque solamente mi propia voluntad; dame libertad interior para escuchar tu llamada y valentía para conversar con mis formadores cuando lo necesite. San José, custodio de Jesús, enséñame a servir en silencio y a cumplir fielmente mis responsabilidades. San José Marello, ayúdame a vivir la fe con sencillez, caridad y perseverancia. Bendice a mi familia, a mi comunidad y a quienes sufren esta noche. Concede descanso a mi cuerpo, paz a mi mente y un corazón dispuesto a amarte mañana. En tus manos pongo lo que pude hacer y también lo que quedó pendiente. Amén.</p>
+</section>
+<section class="card" id="dificil">
+<h2 class="sectiontitle">🕊️ Cuando el camino se hace difícil</h2>
+<label class="label" for="difficulty">Elige lo que estás viviendo</label>
+<select id="difficulty" aria-label="Elige lo que estás viviendo" style="width:100%;padding:14px;border:1px solid #9b7a32;border-radius:14px;background:#171813;color:#fff4d6;font:inherit;margin:8px 0 12px;min-height:54px;display:block;appearance:auto;color-scheme:dark">
+<option value="discernimiento">Tengo dudas sobre mi vocación</option>
+<option value="desanimo">Me siento desanimado</option>
+<option value="tristeza">Estoy triste</option>
+<option value="enojo">Estoy enojado o molesto</option>
+<option value="soledad">Me siento solo</option>
+<option value="tentacion">Me cuesta mantener un buen hábito</option>
+</select>
+<p class="prayer" id="difficultyPrayer" aria-live="polite">Elige una opción para recibir una oración que te acompañe.</p>
+<p class="small">La oración puede acompañarte, pero no tienes que cargar solo con lo que te preocupa. Habla con tu formador o con alguien de confianza si lo necesitas.</p>
+</section>
+<section class="card" id="santidad">
+<h2 class="sectiontitle">🌱 Crecer en santidad, paso a paso</h2>
+<p>La santidad no significa no equivocarse nunca. Es aprender a amar a Jesús en la vida diaria, levantarse después de una caída y hacer el bien en las cosas pequeñas. San José Marello nos inspira a vivir con humildad, oración y servicio fiel.</p>
+<div class="label">Cuatro maneras sencillas de comenzar</div>
+<div class="dailychallenge">
+<p><strong>1. Dedica un momento a Jesús.</strong><br/>Guarda cinco minutos para estar en silencio, leer el Evangelio o hablar con Él con tus propias palabras.</p>
+<p><strong>2. Cumple bien una responsabilidad.</strong><br/>Haz con cariño una tarea de casa, estudio o comunidad, aunque nadie te felicite.</p>
+<p><strong>3. Trata a alguien con caridad.</strong><br/>Escucha sin interrumpir, responde con paciencia o ayuda sin esperar nada a cambio.</p>
+<p><strong>4. Revisa tu día sin desanimarte.</strong><br/>Pregúntate: «¿Dónde amé hoy? ¿Qué puedo mejorar mañana?». Si fallaste, reconoce el error y vuelve a empezar.</p>
+</div>
+<div class="label">Mi pequeño compromiso de hoy</div>
+<p class="small">Elige una acción concreta. Es mejor un paso pequeño y sincero que prometer demasiadas cosas.</p>
+<textarea id="sanctityPromise" placeholder="Hoy quiero crecer en santidad haciendo esto..."></textarea>
+<label class="checkline"><input id="sanctityDone" type="checkbox"/> Hoy hice el esfuerzo de cumplir mi compromiso</label>
+<p aria-live="polite" class="small" id="sanctityMsg">Cada día puedes volver a intentarlo con la ayuda de Dios.</p>
+<p class="prayer">Jesús, enséñame a amarte en las cosas pequeñas. San José, ayúdame a vivir con humildad y fidelidad. San José Marello, acompáñame para que mi vida sea un servicio sencillo y alegre. Amén.</p>
+</section>
+<section class="card" id="marello">
+<h2 class="sectiontitle">🌿 Aprender de San José Marello</h2>
+<div class="label" id="marelloTheme"></div>
+<p id="marelloTeaching"></p>
+<p class="note">Estas son síntesis de temas de la espiritualidad marelliana, no citas textuales atribuidas al santo.</p>
+</section>
+<div class="footer">Hecha con cariño para acompañar tu camino. Las reflexiones son meditaciones originales; consulta con tus formadores para el acompañamiento vocacional.</div>
+</main>
+
+<a class="diary-float" href="#diario" aria-label="Abrir Mi diario"><span class="diary-float-icon">✎</span><span>Mi diario</span></a>
+<style>
+.diary-float{position:fixed;z-index:100;right:16px;bottom:18px;display:flex;align-items:center;gap:9px;padding:10px 16px 10px 10px;border-radius:999px;background:linear-gradient(135deg,#f7c64e,#e9a20a);color:#17140b;text-decoration:none;font-weight:800;font-size:.88rem;box-shadow:0 8px 26px #0009,0 0 0 1px #ffe29a66;transition:transform .15s ease,box-shadow .15s ease}
+.diary-float:active{transform:scale(.96)}
+.diary-float-icon{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:#171711;color:#ffcf55;font-size:1.25rem}
+@media(min-width:700px){.diary-float{right:calc((100vw - 660px)/2);bottom:24px}}
+</style>
+<script>
+const entries=[
+["La santidad empieza en lo pequeño: una tarea bien hecha, una palabra amable y un servicio escondido.","Haz hoy una tarea de tu comunidad con cuidado, aunque nadie te felicite.","Jesús, enséñame a amarte en las cosas ordinarias. San José, ayúdame a servir en silencio. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["No tienes que comprender todo tu camino hoy. Da con confianza el paso bueno que tienes delante.","Cumple con atención la responsabilidad que hoy te corresponde.","Señor, ilumina mi camino y dame paciencia para descubrir tu voluntad sin miedo. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La humildad no consiste en pensar que no vales, sino en reconocer la verdad y estar dispuesto a aprender.","Escucha una corrección sin responder de inmediato; piensa qué puedes aprender.","Jesús manso y humilde, dame un corazón dispuesto a aprender y a crecer. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["San José cuidó de Jesús con una fidelidad sencilla. También tú puedes cuidar a los demás con gestos concretos.","Ayuda a un hermano antes de que tenga que pedírtelo.","San José, enséñame a cuidar, proteger y servir con amor generoso. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La oración no siempre trae emociones especiales. A veces amar es quedarse un momento en silencio con Dios.","Dedica cinco minutos a la oración, aunque estés distraído.","Señor, aquí estoy tal como soy. Recibe mi tiempo y enséñame a estar contigo. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Tu vocación no se demuestra siendo perfecto, sino caminando con sinceridad, libertad y perseverancia.","Habla con honestidad con Dios sobre una alegría o dificultad que tengas.","Jesús, dame un corazón sincero para escuchar tu llamada y responder libremente. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["El servicio verdadero no busca aplausos: busca el bien de la persona que tienes delante.","Haz un acto de servicio sin contárselo a nadie.","Señor, líbrame de buscar reconocimiento y enséñame a amar de verdad. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Cuando te equivoques, no te quedes en la culpa: reconoce el error, pide perdón y vuelve a empezar.","Si has herido a alguien, da un paso concreto para reparar el daño.","Padre bueno, dame humildad para reconocer mis errores y valentía para comenzar de nuevo. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["El silencio puede ayudarte a escuchar lo que llevas en el corazón y a tratar con más cariño a los demás.","Pasa diez minutos sin pantalla, en silencio y con Dios.","Señor, aquieta mi corazón para que pueda escucharte y escuchar a mis hermanos. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La paciencia es amor que sabe esperar sin tratar mal a los demás.","Cuando algo te irrite, respira despacio antes de contestar.","Jesús, dame paciencia en las dificultades y respeto en mis palabras. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["No compares tu camino con el de otros. Cada persona crece a su ritmo y necesita aprender cosas distintas.","Agradece una cualidad de un compañero sin compararte con él.","Señor, ayúdame a aceptar mi proceso y alegrarme sinceramente por el bien de los demás. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La fidelidad se construye repitiendo el bien incluso cuando el entusiasmo disminuye.","Mantén hoy una pequeña rutina buena que a veces te cuesta.","San José, ayúdame a ser fiel en lo sencillo y constante en el amor. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Una palabra amable puede aliviar un día difícil. No subestimes el bien que puedes hacer.","Anima a alguien de tu comunidad con una palabra sincera.","Jesús, pon bondad en mis palabras y atención en mi corazón. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Discernir es aprender a mirar tus deseos con calma, oración y acompañamiento; no tienes que decidir todo solo.","Anota una pregunta vocacional para conversar con tu formador.","Espíritu Santo, dame claridad, libertad y confianza para caminar acompañado. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La fortaleza no es no sentir debilidad; es pedir ayuda y seguir dando pasos buenos.","Pide consejo a una persona de confianza sobre algo que te preocupa.","Señor, dame la humildad de pedir ayuda y la fuerza para perseverar. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Agradecer transforma la mirada: nos ayuda a reconocer los regalos que ya están presentes.","Da gracias por tres cosas concretas de este día.","Padre, gracias por la vida, por las personas que me acompañan y por este nuevo día. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["San José fue fiel sin necesitar ocupar el centro. También puedes hacer el bien sin buscar ser el protagonista.","Deja que otro reciba el reconocimiento por un trabajo compartido.","San José, enséñame a servir con discreción y alegría. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Tu cuerpo y tu descanso también necesitan cuidado. El equilibrio te ayuda a amar y servir mejor.","Respeta hoy un momento de descanso sin culpa y sin exceso de pantallas.","Señor, enséñame a cuidar con responsabilidad la vida que me has regalado. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La caridad empieza por tratar con dignidad a quienes conviven contigo cada día.","Haz un gesto de amabilidad hacia alguien con quien te cuesta convivir.","Jesús, enséñame a reconocer tu presencia en cada persona. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La esperanza no significa que todo sea fácil; significa que no caminas solo en las dificultades.","Cuando aparezca una preocupación, conviértela en una oración breve.","Señor, sostén mi esperanza y ayúdame a hacer hoy el bien que sí está en mis manos. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Ser responsable también es una forma de amar: los pequeños compromisos construyen confianza.","Llega puntual y termina una tarea pendiente.","Jesús, ayúdame a ser responsable, confiable y generoso. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La escucha es un regalo. A veces ayudar no es dar consejos, sino prestar atención de verdad.","Escucha a alguien sin interrumpirlo ni mirar el teléfono.","Señor, dame un corazón atento que sepa escuchar antes de hablar. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La alegría cristiana puede convivir con el cansancio. No tienes que fingir que siempre estás bien.","Comparte con alguien de confianza cómo te encuentras de verdad.","Jesús, acompáñame en mi alegría y también en mi cansancio. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La pureza de corazón crece cuando aprendes a mirar a cada persona con respeto y dignidad.","Evita hoy un comentario que pueda humillar o cosificar a otra persona.","Señor, purifica mis intenciones y enséñame a amar con respeto. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La formación no es solo acumular conocimientos: también es dejar que la verdad transforme tu manera de vivir.","Estudia algo con atención y piensa cómo puede ayudarte a servir mejor.","Espíritu Santo, ilumina mi inteligencia y transforma mi corazón. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La comunidad es una escuela de amor: sus diferencias pueden enseñarte paciencia, diálogo y generosidad.","Agradece a un hermano algo concreto que aporte a la comunidad.","Señor, haz de nuestra comunidad un lugar de respeto, alegría y servicio. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["No necesitas hacer algo extraordinario para amar a Dios. Haz con amor lo que hoy te toca.","Realiza una tarea cotidiana sin quejarte y con buena disposición.","Jesús, recibe mis pequeñas obras y enséñame a hacerlas por amor. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["La libertad crece cuando eliges conscientemente lo que te hace bien y te ayuda a amar mejor.","Dedica un rato a una actividad que te haga crecer y te dé paz.","Señor, ayúdame a usar mi tiempo con libertad, sabiduría y alegría. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Pedir perdón no te hace menos digno: abre la puerta a la verdad, la reconciliación y el crecimiento.","Reconoce con sencillez una equivocación, si hoy la hubo.","Jesús, dame un corazón reconciliado y dispuesto a reparar. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."],
+["Cada día es una oportunidad nueva. El pasado puede enseñarte, pero no tiene que detenerte.","Al terminar el día, agradece una cosa y entrégale a Dios una preocupación.","Padre, pongo en tus manos lo vivido y recibo con esperanza el día que vendrá. Te pido que ilumines mis pensamientos, guíes mis decisiones y me ayudes a vivir este día con humildad, paciencia y caridad. Enséñame a reconocer tu presencia en las personas que encuentre, a cumplir mis responsabilidades con alegría y a volver a empezar cuando me equivoque. Acompaña mi camino vocacional para que pueda buscar tu voluntad con libertad y un corazón sincero. Amén."]
+];
+const keyDate=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+let viewDate=new Date();viewDate.setHours(12,0,0,0);
+const fmt=d=>d.toLocaleDateString('es-PE',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+const dayIndex=d=>{const start=new Date(d.getFullYear(),0,1);return Math.floor((new Date(d.getFullYear(),d.getMonth(),d.getDate())-start)/86400000)};
+const entryFor=d=>entries[dayIndex(d)%entries.length];
+const doneKey=d=>'csj-done-'+keyDate(d), journalKey=d=>'csj-journal-'+keyDate(d), prayedKey=d=>'csj-prayed-'+keyDate(d);
+const dailyChallenges=[
+['HUMILDAD','Escucha una corrección con calma. Antes de responder, piensa qué puedes aprender.'],
+['SERVICIO','Haz hoy un favor concreto a alguien de tu comunidad sin esperar que te lo agradezcan.'],
+['ORACIÓN','Aparta cinco minutos para estar con Jesús en silencio y hablarle con sinceridad.'],
+['FIDELIDAD','Cumple una responsabilidad cotidiana con cuidado, aunque tengas pocas ganas.'],
+['CARIDAD','Ten una palabra amable con alguien que quizá esté cansado o preocupado.'],
+['SENCILLEZ','Haz una tarea sencilla sin buscar llamar la atención ni recibir elogios.'],
+['ESCUCHA','Dedica un momento a escuchar de verdad a alguien, sin interrumpirlo.'],
+['GRATITUD','Agradece a una persona algo concreto que haya hecho por ti.'],
+['PERDÓN','Si has herido a alguien, da un paso humilde hacia la reconciliación cuando sea oportuno.'],
+['CONFIANZA','Entrega a Dios una preocupación en una oración breve y da el siguiente paso bueno.']
+];
+const challengeKey=d=>'csj-challenge-'+keyDate(d);
+function render(){let e=entryFor(viewDate);document.getElementById('dateText').textContent=fmt(viewDate);document.getElementById('diaryEntry').value=localStorage.getItem('diary-'+keyDate(viewDate))||'';document.getElementById('diaryStatus').textContent='Página del '+fmt(viewDate)+'.';document.getElementById('dayNum').textContent='· Día '+(dayIndex(viewDate)+1);document.getElementById('quote').textContent='“'+e[0]+'”';document.getElementById('purpose').textContent=e[1];document.getElementById('prayer').textContent=e[2];document.getElementById('done').checked=localStorage.getItem(doneKey(viewDate))==='1';document.getElementById('prayedMsg').classList.toggle('hidden',localStorage.getItem(prayedKey(viewDate))!=='1');document.getElementById('streakText').textContent=document.getElementById('done').checked?'¡Has marcado tu propósito de hoy!':'Cada pequeño paso cuenta.';document.getElementById('progressBar').style.width=document.getElementById('done').checked?'100%':'0%';const c=dailyChallenges[dayIndex(viewDate)%dailyChallenges.length];document.getElementById('challengeTag').textContent=c[0];document.getElementById('challengeText').textContent=c[1];document.getElementById('challengeDone').checked=localStorage.getItem(challengeKey(viewDate))==='1';document.getElementById('challengeMsg').textContent=document.getElementById('challengeDone').checked?'¡Muy bien! Has dado un pequeño paso de amor hoy.':'No se trata de hacerlo perfecto; basta dar un paso sincero.';renderDiaryEntries()}
+function renderDiaryEntries(){const box=document.getElementById('diaryEntries');if(!box)return;const items=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&k.startsWith('diary-')){const value=localStorage.getItem(k)||'';if(value.trim())items.push({date:k.slice(6),value})}}items.sort((a,b)=>b.date.localeCompare(a.date));box.innerHTML='';if(!items.length){box.innerHTML='<p class="small">Todavía no tienes páginas guardadas. Escribe tu primera reflexión y pulsa «Guardar mi página».</p>';return}items.forEach(item=>{const row=document.createElement('div');row.style.cssText='border:1px solid #5b4925;border-radius:12px;padding:12px;margin:8px 0;background:#171813';const date=document.createElement('strong');date.style.color='#ffdf8a';date.textContent=new Date(item.date+'T12:00:00').toLocaleDateString('es-PE',{day:'numeric',month:'long',year:'numeric'});const preview=document.createElement('p');preview.className='small';preview.style.margin='6px 0 10px';preview.textContent=item.value.length>120?item.value.slice(0,120)+'…':item.value;const open=document.createElement('button');open.type='button';open.className='btn secondary';open.textContent=item.date===keyDate(viewDate)?'Página abierta':'Volver a leer';open.disabled=item.date===keyDate(viewDate);open.onclick=()=>{const parts=item.date.split('-').map(Number);viewDate=new Date(parts[0],parts[1]-1,parts[2],12);render();document.getElementById('diaryEntry').focus()};row.append(date,preview,open);box.appendChild(row)})}
+document.getElementById('challengeDone').onchange=e=>{localStorage.setItem(challengeKey(viewDate),e.target.checked?'1':'0');render()};document.getElementById('prev').onclick=()=>{viewDate.setDate(viewDate.getDate()-1);render()};document.getElementById('next').onclick=()=>{viewDate.setDate(viewDate.getDate()+1);render()};document.getElementById('done').onchange=e=>{localStorage.setItem(doneKey(viewDate),e.target.checked?'1':'0');render()};document.getElementById('prayed').onclick=()=>{localStorage.setItem(prayedKey(viewDate),'1');render()};
+document.getElementById('saveDiary').onclick=()=>{try{localStorage.setItem('diary-'+keyDate(viewDate),document.getElementById('diaryEntry').value);document.getElementById('diaryStatus').textContent='Tu página del '+fmt(viewDate)+' quedó guardada en este dispositivo.';renderDiaryEntries()}catch(e){document.getElementById('diaryStatus').textContent='No se pudo guardar. Comprueba el espacio disponible en el dispositivo.'}};
+document.getElementById('diaryEntry').addEventListener('input',()=>{try{localStorage.setItem('diary-'+keyDate(viewDate),document.getElementById('diaryEntry').value);document.getElementById('diaryStatus').textContent='Guardado automático en este dispositivo.';renderDiaryEntries()}catch(e){document.getElementById('diaryStatus').textContent='No se pudo guardar automáticamente.'}});
+document.getElementById('clearDiary').onclick=()=>{if(document.getElementById('diaryEntry').value.trim()&&!confirm('¿Quieres borrar el texto de esta página?'))return;document.getElementById('diaryEntry').value='';localStorage.removeItem('diary-'+keyDate(viewDate));document.getElementById('diaryStatus').textContent='El texto de esta fecha se ha borrado.';renderDiaryEntries()};
+const bible=[
+{v:"La Palabra ilumina el camino",r:"Salmo 119,105",f:"La Palabra de Dios no siempre muestra todo el camino de una vez; muchas veces ilumina el próximo paso.",p:"Jesús, ¿qué paso bueno me invitas a dar hoy?"},
+{v:"Confía: Dios te acompaña",r:"Isaías 41,10",f:"Puedes llevar tus dudas a Dios sin esconderlas. La confianza no elimina todas las preguntas, pero te ayuda a caminar acompañado.",p:"¿Qué preocupación puedo poner hoy en tus manos?"},
+{v:"Aprender de la mansedumbre y humildad de Jesús",r:"Mateo 11,29",f:"La humildad se aprende practicando la escucha, aceptando ayuda y tratando con respeto a cada persona.",p:"¿A quién necesito escuchar mejor?"},
+{v:"Permanecer en el amor de Jesús",r:"Juan 15,9",f:"La oración no es un examen que tienes que aprobar. Es permanecer con Jesús y dejar que su amor transforme poco a poco tu vida.",p:"¿Cómo puedo hacer espacio para estar contigo hoy?"},
+{v:"Hacer las tareas de corazón y para el Señor",r:"Colosenses 3,23",f:"Una tarea sencilla, hecha con cuidado y amor, también puede ser una ofrenda a Dios.",p:"¿Qué responsabilidad puedo hacer hoy con más amor?"},
+{v:"Practicar la misericordia",r:"Lucas 6,36",f:"La misericordia empieza en casa y en comunidad: en la paciencia, el perdón y la voluntad de comprender.",p:"¿Con quién puedo ser más paciente?"},
+{v:"Mantener el corazón en oración",r:"1 Tesalonicenses 5,17",f:"Puedes volver a Dios con una oración breve en medio de tus tareas. La oración también se alimenta de la fidelidad cotidiana.",p:"¿Qué frase sencilla puedo repetir durante el día?"}
+];
+const challenges=[
+"Practica la humildad: acepta una corrección sin justificarte enseguida y reflexiona sobre lo que puedes aprender.",
+"Haz un servicio concreto por alguien de tu comunidad sin esperar agradecimiento.",
+"Cuida tus palabras: evita una crítica innecesaria y di algo que anime a otra persona.",
+"Dedica diez minutos a la oración, sin exigirte sentir algo especial.",
+"Cumple puntualmente una responsabilidad y hazla con atención.",
+"Pide perdón o repara una pequeña falta si hoy has herido a alguien.",
+"Escucha de verdad a una persona durante unos minutos, sin mirar el teléfono.",
+"Agradece a Dios tres cosas concretas antes de dormir.",
+"Elige una distracción que puedas limitar hoy para dar espacio a una actividad buena.",
+"Ofrece ayuda antes de que te la pidan."
+];
+const marello=[
+["La santidad en lo cotidiano","La espiritualidad de San José Marello invita a encontrar a Dios en los deberes ordinarios. No hace falta llamar la atención: la fidelidad se construye cumpliendo con amor lo que hoy te corresponde."],
+["Mirar a San José","San José enseña una presencia discreta, responsable y protectora. Puedes imitarlo cuidando a los demás, escuchando con respeto y sirviendo sin buscar protagonismo."],
+["Amor a Jesús","La vida espiritual no consiste solo en palabras; se expresa en decisiones concretas. Pregúntate cómo puede verse hoy tu amor a Jesús en tu forma de estudiar, trabajar y convivir."],
+["Humildad y formación","Ser formado también significa aceptar que todavía tienes mucho por aprender. La humildad te permite recibir orientación sin despreciarte ni compararte con otros."],
+["Fidelidad y perseverancia","No todos los días se sienten iguales. Perseverar significa volver a la oración, al servicio y a tus compromisos incluso cuando el entusiasmo es pequeño."]
+];
+const difficult={
+discernimiento:"Señor Jesús, tú conoces mis deseos y mis preguntas. Ayúdame a discernir sin miedo ni prisa, con libertad y sinceridad. Enséñame a reconocer mis dones y mis límites, y dame humildad para escuchar a mis formadores. Que no busque señales extraordinarias a toda costa, sino que aprenda a amar y servir en lo cotidiano. Acompáñame en el camino y dame paz para dar el siguiente paso. Amén.",
+desanimo:"Jesús, hoy me siento desanimado y quizá no veo con claridad el fruto de mis esfuerzos. Acércate a mí y recuérdame que mi valor no depende de hacerlo todo perfectamente. Ayúdame a descansar cuando lo necesite, pedir ayuda y comenzar de nuevo con un paso pequeño. Gracias porque puedo presentarme ante ti tal como soy. Amén.",
+tristeza:"Jesús, hoy estoy triste y necesito sentirme acompañado. Recibe lo que me duele, incluso aquello que me cuesta explicar. Dame consuelo y paciencia para atravesar este momento, y ayúdame a acercarme a alguien de confianza si necesito hablar. Recuérdame que no tengo que resolverlo todo ahora y que puedo dar un pequeño paso con tu compañía. Amén.",
+enojo:"Señor, mi corazón está inquieto. Ayúdame a hacer una pausa antes de hablar o actuar. Dame serenidad para comprender lo que siento y respeto para no herir a nadie. Enséñame a expresar lo que me pasa con honestidad y a reparar el daño si he actuado mal. Que tu paz guíe mis decisiones. Amén.",
+soledad:"Jesús, en este momento de soledad te entrego lo que llevo dentro. Recuérdame que puedo buscar compañía y hablar con alguien de confianza. Abre mi corazón a los hermanos que caminan conmigo y enséñame también a escuchar sus necesidades. Quédate conmigo y ayúdame a vivir este día con esperanza. Amén.",
+tentacion:"Señor, dame claridad para reconocer lo que me hace bien y lo que me aleja de mis propósitos. No permitas que me hunda en la culpa cuando tropiece; ayúdame a elegir una acción concreta, pedir apoyo si lo necesito y retomar el camino. Fortalece mi libertad y mi deseo de amar. Amén."
+};
+function renderExtras(){
+ const ix=dayIndex(viewDate);
+ const c=challenges[ix%challenges.length];
+ document.getElementById('challengeText').textContent=c;
+ const ck='csj-challenge-'+keyDate(viewDate);
+ document.getElementById('challengeDone').checked=localStorage.getItem(ck)==='1';
+ document.getElementById('challengeMsg').textContent=document.getElementById('challengeDone').checked?'¡Bien hecho! Lo pequeño también cuenta.':'No busques perfección: intenta dar este paso con amor.';
+ const m=marello[ix%marello.length];
+ document.getElementById('marelloTheme').textContent=m[0];
+ document.getElementById('marelloTeaching').textContent=m[1];
+ document.getElementById('difficultyPrayer').textContent=difficult[document.getElementById('difficulty').value];
+}
+document.getElementById('difficulty').onchange=()=>{document.getElementById('difficultyPrayer').textContent=difficult[document.getElementById('difficulty').value]};
+document.getElementById('challengeDone').onchange=e=>{localStorage.setItem('csj-challenge-'+keyDate(viewDate),e.target.checked?'1':'0');renderExtras()};
+document.getElementById('nightMore').onclick=()=>{const x=document.getElementById('nightExtra');x.classList.toggle('hidden');document.getElementById('nightMore').textContent=x.classList.contains('hidden')?'Mostrar oración completa':'Ocultar oración completa'};
+const oldRender=render;
+render=function(){oldRender();renderExtras()};
+render();
+
+// Guarda el compromiso de santidad en este navegador.
+const sanctityPromise = document.getElementById('sanctityPromise');
+const sanctityDone = document.getElementById('sanctityDone');
+const sanctityMsg = document.getElementById('sanctityMsg');
+try {
+  sanctityPromise.value = localStorage.getItem('csj-sanctity-promise') || '';
+  sanctityDone.checked = localStorage.getItem('csj-sanctity-done') === '1';
+} catch(e) {}
+sanctityPromise.addEventListener('input', () => {
+  try { localStorage.setItem('csj-sanctity-promise', sanctityPromise.value); } catch(e) {}
+});
+sanctityDone.addEventListener('change', () => {
+  try { localStorage.setItem('csj-sanctity-done', sanctityDone.checked ? '1' : '0'); } catch(e) {}
+  sanctityMsg.textContent = sanctityDone.checked ? '¡Bien! Lo importante es haberlo intentado con sinceridad.' : 'Cada día puedes volver a intentarlo con la ayuda de Dios.';
+});
+
+/* Navegación entre pantallas: compatible con Android WebView */
+(function(){
+  const homeSelectors = [
+    '.hero', '#dateText', '.liturgical',
+    'nav.quickgrid:not(.lowergrid)', '#marello-home',
+    'nav.lowergrid', '.footer'
+  ];
+  const homeEls = homeSelectors.map(sel => document.querySelector(sel)).filter(Boolean);
+  const pages = Array.from(document.querySelectorAll('section[id]'))
+    .filter(el => el.id !== 'marello-home');
+  let currentPage = null;
+
+  function topOfPage(){
+    try { window.scrollTo(0, 0); } catch(e) {}
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }
+  function showHome(updateHash){
+    currentPage = null;
+    homeEls.forEach(el => el.classList.remove('app-page-hidden'));
+    pages.forEach(el => el.classList.add('app-page-hidden'));
+    document.querySelectorAll('.page-back').forEach(btn => btn.classList.add('app-page-hidden'));
+    if(updateHash && location.hash) history.replaceState(null, '', location.pathname + location.search);
+    topOfPage();
+  }
+  function showPage(id, updateHash){
+    const target = document.getElementById(id);
+    if(!target || !pages.includes(target)){ showHome(updateHash); return; }
+    currentPage = id;
+    homeEls.forEach(el => el.classList.add('app-page-hidden'));
+    pages.forEach(el => el.classList.toggle('app-page-hidden', el !== objetivo));
+    document.querySelectorAll('.page-back').forEach(btn => btn.classList.toggle('app-page-hidden', !target.contains(btn)));
+    if(updateHash && location.hash !== '#'+id) history.replaceState(null, '', location.pathname + location.search + '#'+id);
+    topOfPage();
+  }
+  pages.forEach(page => {
+    if(!page.querySelector(':scope > .page-back')){
+      const back = document.createElement('botón');
+      back.type = 'botón';
+      back.className = 'pgina-back aplicación-pgina-oculta';
+      back.textContent = '← Volver al inicio';
+      back.addEventListener('click', function(e){ e.preventDefault(); e.stopPropagation(); showHome(true); });
+      page.insertBefore(back, page.firstChild);
+    }
+  });
+
+  /* Captura el toque antes de que WebView trate el enlace como ancla de desplazamiento. */
+  document.addEventListener('click', function(event){
+    const link = evento.objetivo.más cercano('a[href^="#"]');
+    if(!link) return;
+    const id = (link.getAttribute('href') || '').slice(1);
+    if(!id) return;
+    if(pages.some(page => page.id === id)){
+      event.preventDefault();
+      event.stopPropagation();
+      if(event.stopImmediatePropagation) event.stopImmediatePropagation();
+      showPage(id, true);
+    } else if(id === 'inicio' || id === 'inicio'){
+      event.preventDefault();
+      event.stopPropagation();
+      if(event.stopImmediatePropagation) event.stopImmediatePropagation();
+      showHome(true);
+    }
+  }, true);
+
+  window.addEventListener('popstate', function(){
+    const id = location.hash.slice(1);
+    if(id && pages.some(page => page.id === id)) showPage(id, falso);
+    else showHome(false);
+  });
+  const initial = location.hash.slice(1);
+  if(initial && pages.some(page => page.id === inicial)) showPage(inicial, falso);
+  else showHome(false);
+})(); 
+</script></body></html>
